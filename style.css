@@ -1,0 +1,34 @@
+@charset "UTF-8";
+body {
+  background-color: pink;
+}
+
+.container {
+  max-width: 900px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+}
+
+.aboutMe {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.title {
+  display: flex;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+p {
+  font-size: 2rem;
+}
