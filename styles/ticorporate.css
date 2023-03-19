@@ -1,0 +1,53 @@
+@charset "UTF-8";
+body {
+  background-color: pink;
+}
+
+.container {
+  max-width: 1000px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+}
+
+.navigation {
+  display: flex;
+  min-width: 600px;
+  max-width: 1000px;
+  background-color: red;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 2rem;
+}
+
+.aboutMe {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.title {
+  display: flex;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 2.5rem;
+}
+
+p {
+  font-size: 2rem;
+}
+
+img {
+  display: flex;
+  flex-direction: row;
+}

@@ -4,11 +4,21 @@ body {
 }
 
 .container {
-  max-width: 900px;
+  max-width: 1000px;
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: auto;
+}
+
+.navigation {
+  display: flex;
+  min-width: 600px;
+  max-width: 1000px;
+  background-color: red;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 2rem;
 }
 
 .aboutMe {
@@ -29,6 +39,15 @@ h2 {
   font-size: 3rem;
 }
 
+h3 {
+  font-size: 2.5rem;
+}
+
 p {
   font-size: 2rem;
+}
+
+img {
+  display: flex;
+  flex-direction: row;
 }
