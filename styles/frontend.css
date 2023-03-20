@@ -1,5 +1,6 @@
 @charset "UTF-8";
 body {
+  background-color: pink;
 }
 
 .container {
@@ -30,12 +31,6 @@ body {
   display: flex;
 }
 
-.contactInfo {
-  display: flex;
-  flex-direction: column;
-  background-color: red;
-}
-
 h1 {
   font-size: 4rem;
 }
@@ -55,4 +50,9 @@ p {
 img {
   display: flex;
   flex-direction: row;
+  margin-top: 2rem;
+}
+
+li {
+  font-size: 2rem;
 }
