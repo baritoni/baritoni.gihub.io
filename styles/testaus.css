@@ -56,3 +56,7 @@ img {
 li {
   font-size: 2rem;
 }
+
+a:hover {
+  color: red;
+}

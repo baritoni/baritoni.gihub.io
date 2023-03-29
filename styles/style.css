@@ -40,7 +40,7 @@ body {
 .contactInfo {
   display: flex;
   flex-direction: column;
-  background-color: red;
+  border: solid;
   line-height: 2px;
   margin-left: 20rem;
   margin-top: 3rem;
@@ -73,4 +73,17 @@ img {
 .cardimg {
   background-color: blue;
   display: flex;
+}
+
+a:hover {
+  color: red;
+}
+
+hr {
+  border: 0;
+  clear: both;
+  display: block;
+  width: 96%;
+  background-color: darkgray;
+  height: 1px;
 }
