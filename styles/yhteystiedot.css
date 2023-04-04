@@ -5,6 +5,7 @@ body {
 
 .container {
   max-width: 1000px;
+  min-height: 1100px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -39,12 +40,6 @@ body {
   align-items: center;
 }
 
-.aboutMe {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
-
 h1 {
   font-size: 4rem;
   color: lightgrey;
@@ -73,9 +68,8 @@ img {
   flex-direction: row;
 }
 
-.cardimg {
-  background-color: blue;
-  display: flex;
+li {
+  font-size: 2rem;
 }
 
 a {
@@ -87,13 +81,12 @@ a:hover {
   color: red;
 }
 
-hr {
-  border: 0;
-  clear: both;
-  display: block;
-  width: 96%;
-  background-color: darkgray;
-  height: 1px;
+.header {
+  padding-bottom: 1rem;
+}
+
+.contactinfo {
+  margin: 0.7rem;
 }
 
 .round {
