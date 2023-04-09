@@ -1,10 +1,11 @@
 @charset "UTF-8";
 body {
+  position: relative;
   background-color: #505050;
 }
 
 .container {
-  max-width: 1000px;
+  max-width: 1200px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -12,7 +13,7 @@ body {
 }
 
 /* Sivuvalikon menu */
-.sidenav {
+.sidebar {
   height: 100%; /* 100% korkeus */
   width: 20%; /* Leveyden asetus */
   position: fixed; /* Fixed sijainti, pysyy paikoillaan scrollatessa */
@@ -21,6 +22,7 @@ body {
   left: 0;
   background-color: #111;
   overflow-x: hidden; /* Vaakasuntainen scrollaus disabloitu */
+  overflow-y: hidden;
   padding-top: 20px;
   display: flex;
   flex-direction: column;
@@ -31,6 +33,7 @@ body {
 
 .sidebartext {
   margin: 2rem;
+  font-size: 2vw;
 }
 
 .sideheadline {
@@ -41,14 +44,27 @@ body {
 
 .aboutMe {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   flex-direction: column;
+  width: 75%;
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+}
+
+.workexperience {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 75%;
+  margin-left: 2rem;
+  margin-bottom: 2rem;
 }
 
 h1 {
-  font-size: 4rem;
+  font-size: 2.5vw;
   color: lightgrey;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin: 1rem;
 }
 
 h2 {
@@ -71,11 +87,6 @@ p {
 img {
   display: flex;
   flex-direction: row;
-}
-
-.cardimg {
-  background-color: blue;
-  display: flex;
 }
 
 a {
@@ -107,6 +118,7 @@ hr {
 
 .calibri {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 2vw;
 }
 
 .bottombar {
@@ -121,4 +133,11 @@ hr {
 .bottomtext {
   font-size: 1.5rem;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+@media only screen and (max-width: 1500px) {
+  .sidebar {
+    display: none;
+    animation-direction: normal;
+  }
 }
