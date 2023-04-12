@@ -195,4 +195,14 @@ hr {
     display: inline-block;
     margin: 2rem;
   }
+
+  /*
+  .dropdown a:hover {
+    background-color: #ddd;
+  }
+*/
+
+  .maincontent {
+    padding-left: 10px;
+  }
 }
