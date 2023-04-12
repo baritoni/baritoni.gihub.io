@@ -8,7 +8,6 @@ body {
   max-width: 1200px;
   display: flex;
   flex-direction: column;
-  align-items: center;
   margin: auto;
 }
 
@@ -40,6 +39,38 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.maincontent {
+  padding-left: 10px;
+}
+
+.menubutton {
+  display: none;
+  margin: 1.5rem;
+}
+
+#menu {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem;
+  background-color: grey;
+  width: 20%;
+  display: none;
+}
+
+.dropdown {
+  position: relative;
+  display: none;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
 }
 
 .aboutMe {
@@ -135,8 +166,33 @@ hr {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+@media only screen and (max-width: 2000px) {
+  .maincontent {
+    padding-left: 200px;
+  }
+}
 @media only screen and (max-width: 1500px) {
   .sidebar {
     display: none;
+  }
+
+  .showmenu {
+    display: flex;
+    flex-direction: column;
+    width: 12%;
+    background-color: grey;
+    font-size: 2rem;
+    padding: 2rem;
+  }
+
+  a {
+    padding: 0.1rem;
+    text-decoration: none;
+  }
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    margin: 2rem;
   }
 }
