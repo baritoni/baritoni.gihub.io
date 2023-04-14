@@ -32,8 +32,8 @@ body {
 }
 
 .sidebartext {
-  margin: 2rem;
-  font-size: 2vw;
+  margin: 1.5rem;
+  font-size: 1.5vw;
 }
 
 .sideheadline {
@@ -172,6 +172,13 @@ hr {
   .maincontent {
     padding-left: 200px;
   }
+  .fa {
+    padding: 5px;
+    font-size: 30px;
+    width: 2rem;
+
+    text-decoration: none;
+  }
 }
 @media only screen and (max-width: 1500px) {
   .sidebar {
@@ -208,4 +215,42 @@ hr {
   .maincontent {
     padding-left: 10px;
   }
+}
+
+/* Style all font awesome icons */
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 2.5vw;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 20%;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+.fa-github {
+  background: #111;
+  color: white;
+}
+
+.fa-instagram {
+  background: #c63baf;
+  color: white;
+}
+
+.someicons {
+  position: absolute;
+  bottom: 50px;
 }
