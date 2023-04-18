@@ -14,6 +14,7 @@ body {
   flex-direction: column;
   margin: auto;
   background-color: #505050;
+  background-image: linear-gradient(to right, #505050, grey);
   padding-left: 200px;
 }
 

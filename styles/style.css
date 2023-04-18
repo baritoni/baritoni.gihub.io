@@ -11,7 +11,7 @@ body {
   flex-direction: column;
   margin: auto;
   background-color: #505050;
-  padding-left: 200px;
+  background-image: linear-gradient(to right, #111, #505050);
 }
 
 /* Sivuvalikon menu */
@@ -77,21 +77,27 @@ body {
 }
 
 .aboutMe {
+  padding-left: 2rem;
+  padding-bottom: 2rem;
   display: flex;
   align-items: flex-start;
   flex-direction: column;
   width: 75%;
   margin-left: 2rem;
   margin-bottom: 2rem;
+  background-color: grey;
 }
 
 .workexperience {
+  padding-left: 2rem;
+  padding-top: 2rem;
   display: flex;
   align-items: flex-start;
   flex-direction: column;
   width: 75%;
   margin-left: 2rem;
   margin-bottom: 2rem;
+  background-color: grey;
 }
 
 h1 {

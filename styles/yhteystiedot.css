@@ -11,7 +11,8 @@ body {
   flex-direction: column;
   margin: auto;
   background-color: #505050;
-  padding-left: 200px;
+  padding-left: 300px;
+  background-image: linear-gradient(#505050, grey);
 }
 
 /* Sivuvalikon menu */
@@ -79,7 +80,6 @@ body {
 .contactheader {
   font-size: 3rem;
 }
-
 h1 {
   font-size: 2.5vw;
   color: lightgrey;
@@ -126,6 +126,11 @@ a:hover {
   padding-bottom: 1rem;
 }
 
+.contactinfos {
+  margin-top: 50px;
+  margin-bottom: 681px;
+}
+
 .contactinfo {
   margin: 0.7rem;
 }
@@ -154,7 +159,6 @@ hr {
 }
 
 .bottombar {
-  margin-top: 748px;
   display: flex;
   width: 100%;
   height: 100px;
