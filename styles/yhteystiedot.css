@@ -1,19 +1,21 @@
 @charset "UTF-8";
 body {
+  bottom: -8px;
+  position: relative;
   background-color: #505050;
 }
 
 .container {
-  max-width: 1000px;
-  min-height: 1100px;
+  max-width: 1200px;
   display: flex;
   flex-direction: column;
-  align-items: center;
   margin: auto;
+  background-color: #505050;
+  padding-left: 200px;
 }
 
 /* Sivuvalikon menu */
-.sidenav {
+.sidebar {
   height: 100%; /* 100% korkeus */
   width: 20%; /* Leveyden asetus */
   position: fixed; /* Fixed sijainti, pysyy paikoillaan scrollatessa */
@@ -22,6 +24,7 @@ body {
   left: 0;
   background-color: #111;
   overflow-x: hidden; /* Vaakasuntainen scrollaus disabloitu */
+  overflow-y: hidden;
   padding-top: 20px;
   display: flex;
   flex-direction: column;
@@ -31,7 +34,8 @@ body {
 }
 
 .sidebartext {
-  margin: 2rem;
+  margin: 1.5rem;
+  font-size: 1.5vw;
 }
 
 .sideheadline {
@@ -40,10 +44,47 @@ body {
   align-items: center;
 }
 
+.maincontent {
+  padding-left: 10px;
+}
+
+.menubutton {
+  display: none;
+  margin: 1.5rem;
+}
+
+#menu {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem;
+  background-color: grey;
+  width: 20%;
+  display: none;
+}
+
+.dropdown {
+  position: relative;
+  display: none;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.contactheader {
+  font-size: 3rem;
+}
+
 h1 {
-  font-size: 4rem;
+  font-size: 2.5vw;
   color: lightgrey;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin: 1rem;
 }
 
 h2 {
@@ -58,7 +99,7 @@ h3 {
 }
 
 p {
-  font-size: 2rem;
+  font-size: 1.5rem;
   margin: 1rem;
   color: white;
 }
@@ -89,6 +130,15 @@ a:hover {
   margin: 0.7rem;
 }
 
+hr {
+  border: 0;
+  clear: both;
+  display: block;
+  width: 96%;
+  background-color: darkgray;
+  height: 1px;
+}
+
 .round {
   display: flex;
   align-items: center;
@@ -100,18 +150,103 @@ a:hover {
 
 .calibri {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 2vw;
 }
 
 .bottombar {
+  margin-top: 748px;
   display: flex;
   width: 100%;
-  height: 10%;
+  height: 100px;
   background-color: #808080;
   justify-content: center;
-  padding-top: 4rem;
+  padding: 4rem;
+  border-top: 0.5rem groove white;
 }
 
 .bottomtext {
   font-size: 1.5rem;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-right: 1px;
+}
+
+@media only screen and (max-width: 2000px) {
+  .maincontent {
+    padding-left: 200px;
+  }
+  .fa {
+    padding: 5px;
+    font-size: 30px;
+    width: 2rem;
+
+    text-decoration: none;
+  }
+}
+@media only screen and (max-width: 1500px) {
+  .sidebar {
+    display: none;
+  }
+
+  .showmenu {
+    display: flex;
+    flex-direction: column;
+    width: 12%;
+    background-color: lightgrey;
+    font-size: 2rem;
+    padding: 2rem;
+  }
+
+  a {
+    padding: 0.1rem;
+    text-decoration: none;
+    color: #111;
+  }
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    margin: 2rem;
+  }
+
+  .maincontent {
+    padding-left: 10px;
+  }
+}
+
+/* Style all font awesome icons */
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 2.5vw;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 20%;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+.fa-github {
+  background: #111;
+  color: white;
+}
+
+.fa-instagram {
+  background: #c63baf;
+  color: white;
+}
+
+.someicons {
+  position: absolute;
+  bottom: 50px;
 }

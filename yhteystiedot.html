@@ -4,11 +4,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
     <link href="styles/yhteystiedot.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
   </head>
   <body>
     <div class="container">
       <div>
-        <div class="sidenav">
+        <div class="sidebar">
           <div class="sideheadline">
             <h1>Toni Luomala</h1>
             <h2 class="calibri">Portfolio</h2>
@@ -30,20 +38,69 @@
           <div class="sidebartext">
             <a href="yhteystiedot.html">Yhteystiedot</a>
           </div>
+          <div class="someicons">
+            <a
+              href="https://www.facebook.com/toni.luomala"
+              class="fa fa-facebook"
+            ></a>
+            <a
+              href="https://github.com/baritoni?tab=repositories"
+              class="fa fa-github"
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/toni-luomala-286251235/"
+              class="fa fa-linkedin"
+            ></a>
+            <a
+              href="https://www.instagram.com/toni.luomala/"
+              class="fa fa-instagram"
+            ></a>
+          </div>
         </div>
-        <div class="header">
-          <h1>Yhteystiedot</h1>
-          <p>Jos kiinnostuit, ota yhteyttä!</p>
+        <div class="maincontent">
+          <div class="dropdown">
+            <button onclick="showMenu()" class="material-symbols-outlined">
+              menu
+            </button>
+            <div id="dropdownmenu" class="dropdown-content">
+              <a href="index.html">Etusivu</a>
+              <hr />
+              <a href="ticorporate.html">Ticorporate</a>
+              <hr />
+              <a href="yhteystiedot.html">Yhteystiedot</a>
+            </div>
+          </div>
+          <div class="header">
+            <h1 class="contactheader">Yhteystiedot</h1>
+            <p>Jos kiinnostuit, ota yhteyttä!</p>
+          </div>
         </div>
-      </div>
-      <div>
-        <p class="contactinfo">Toni Luomala</p>
-        <p class="contactinfo">aa4498@student.jamk.fi</p>
-        <p class="contactinfo">+358408649793</p>
+        <div>
+          <p class="contactinfo">Toni Luomala</p>
+          <p class="contactinfo">aa4498@student.jamk.fi</p>
+          <p class="contactinfo">+358408649793</p>
+        </div>
       </div>
     </div>
     <div class="bottombar">
-      <p class="bottomtext">© Toni Luomala All Rights Reserved.</p>
+      <p class="bottomtext">© Toni Luomala.</p>
+      <p class="bottomtext">All Rights Reserved.</p>
     </div>
+    <script>
+      /*
+      function hidesidebar() {
+        document.getElementById('sidebar').style.display = 'none';
+      }
+
+      if ($(window).width() < 1200) {
+        alert('Less than 960');
+      } else {
+        alert('More than 960');
+      }
+      */
+      function showMenu() {
+        document.getElementById('dropdownmenu').classList.toggle('showmenu');
+      }
+    </script>
   </body>
 </html>
