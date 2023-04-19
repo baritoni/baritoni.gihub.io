@@ -118,9 +118,19 @@ h3 {
   color: white;
 }
 
+h4 {
+  font-size: 2rem;
+  color: white;
+}
+
 p {
   font-size: 1.5rem;
   margin: 1rem;
+  color: white;
+}
+
+li {
+  font-size: 1.5rem;
   color: white;
 }
 
