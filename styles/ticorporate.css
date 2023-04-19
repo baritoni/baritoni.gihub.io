@@ -15,7 +15,7 @@ body {
   margin: auto;
   background-color: #505050;
   background-image: linear-gradient(to right, #111, #505050);
-  padding-left: 200px;
+  padding-left: 32px;
 }
 
 /* Sivuvalikon menu */
@@ -112,6 +112,9 @@ p {
 img {
   display: flex;
   flex-direction: row;
+}
+
+.contentimage {
   padding-top: 2rem;
 }
 
@@ -157,27 +160,35 @@ li {
 
 .ticorporate {
   background-color: grey;
-  padding: 2rem;
+  padding-top: 1rem;
+  padding-left: 2rem;
+  padding-bottom: 2rem;
   margin-top: 2rem;
   width: 75%;
 }
 
 .brita {
   background-color: grey;
-  padding: 2rem;
+  padding-top: 1rem;
+  padding-left: 2rem;
+  padding-bottom: 2rem;
   margin-top: 2rem;
   width: 75%;
 }
 
 .products {
   background-color: grey;
-  padding: 2rem;
+  padding-top: 1rem;
+  padding-left: 2rem;
+  padding-bottom: 2rem;
   margin-top: 2rem;
   width: 75%;
 }
 
 .frontend {
-  padding: 2rem;
+  padding-top: 1rem;
+  padding-left: 2rem;
+  padding-bottom: 2rem;
   background-color: grey;
   margin-top: 2rem;
   width: 75%;
@@ -185,14 +196,18 @@ li {
 
 .testing {
   margin-top: 2rem;
-  padding: 2rem;
+  padding-top: 1rem;
+  padding-left: 2rem;
+  padding-bottom: 2rem;
   background-color: grey;
   width: 75%;
 }
 
 .result {
   margin-top: 2rem;
-  padding: 2rem;
+  padding-top: 1rem;
+  padding-left: 2rem;
+  padding-bottom: 2rem;
   background-color: grey;
   margin-bottom: 2rem;
   width: 75%;

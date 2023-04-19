@@ -1,4 +1,5 @@
 @charset "UTF-8";
+/* body on sivun taustalla näkyvä osa tumman harmaa pohja */
 body {
   bottom: -8px;
   position: relative;
@@ -12,6 +13,7 @@ body {
   margin: auto;
   background-color: #505050;
   background-image: linear-gradient(to right, #111, #505050);
+  padding-top: 30px;
 }
 
 /* Sivuvalikon menu */
