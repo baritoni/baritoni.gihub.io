@@ -98,6 +98,11 @@ h3 {
   color: white;
 }
 
+h4 {
+  font-size: 2.1rem;
+  color: white;
+}
+
 p {
   font-size: 1.5rem;
   margin: 1rem;
@@ -107,6 +112,7 @@ p {
 img {
   display: flex;
   flex-direction: row;
+  padding-top: 2rem;
 }
 
 li {
@@ -254,4 +260,9 @@ li {
 .someicons {
   position: absolute;
   bottom: 50px;
+}
+
+.imagetext {
+  margin-top: 0px;
+  font-size: 1.3rem;
 }
