@@ -58,7 +58,7 @@
             <a href="yhteystiedot.html">Yhteystiedot</a>
           </div>
         </div>
-      <div>
+      <div class="ticorporate">
         <h2>Mikä on Ticorporate?</h2>
         <p>
           Ticorporate on JAMK:in tietojenkäsittely- tutkinto-ohjelmaan kuuluva
@@ -72,12 +72,12 @@
           
         </p>
       
-        <hr />
+       
       </div>
-      <div>
+      <div class="brita">
         <h3>Brita</h3>
         <img src="pics/britaEtusivu.png" alt="britaEtusivu" width="90%" />
-        Sovelluksen etusivu
+        <p class="imagetext">Sovelluksen etusivu</p>
         <p>
           Kehittämämme sovellus on Brita -nimeä käyttävä pwa-reseptisovellus.
           Sovellus saatiin valmiiksi joulukuussa 2022 ja sitä on mahdollista
@@ -104,20 +104,19 @@
           Sovelluksen<a href="https://github.com/jamktiko/reseptipankki"> Github repositorio </a>
           </a>
         </p>
-        <hr />
-      
- 
-      <hr />
+        
       </div>
-      <div>
+      <div class="products">
       <h3><a id="frontend"></a>Omat tuotokset projektissa</h3>
         
       
       <p>
-        Tässä on muutamia näytteitä projektissa tehdyistä omista tuotoksista testauksen ja frontendin osalta.
+        Alla on muutamia näytteitä projektissa tehdyistä omista tuotoksista testauksen ja frontendin osalta.
         JavaScript kirjastona käytimme suosittua Reactia. Sovelluksen backend on tehty Expressillä ja pilvipalveluna
         toimii Amazon Web Service. Koko projektin koodi löytyy Githubista.
       </p>
+      </div>
+      <div class="frontend">
       <h4>Frontend (React)</h4>
       <img src="pics/cognito.png" alt="cognitopooldata" width="90%" />
       <p class="imagetext">Käyttäjän sisäänkirjautumista käsittelevä -komponentti.</p>
@@ -128,9 +127,9 @@
       <p class="imagetext">OwnLists.js -komponentin koodia. </p>
       <img src="pics/return.png" alt="return" width="90%" />
       <p class="imagetext">Komponentin otsikko, painike ja importoitu ListModal.js komponentti.</p>
-      <hr />
+     
     </div>
-    <div>
+    <div class="testing">
       <h4><a id="testing"></a>Testaus (Cypress & Jest)</h4>
       
       <img src="pics/cypressfunktiot.png" alt="cypressfuktiot" width="80%" />
@@ -142,74 +141,22 @@
       <img src="pics/yksikkotesti.png" alt="yksikkotesti" width="80%" />
       <p class="imagetext">Yksikkötesti Jestillä, jossa testataan Loading komponentin renderöimää
       tekstiä </p>
-      <hr />
+      
       </div>
-      <div>
-      <h3>Mitä opin tästä kaikesta?</h3>
+      <div class="result" >
+      <h3>Lopputulos</h3>
+      <img src="pics/brita_mobiili.jpg" alt="brita_mobiili" width="80%" />
       <p>
-        Projektissa työskenteleminen oli välillä haasteellista, johtuen pitkälti
-        siitä, että uusien asioiden opetteluun ja ongelmien selvittämiseen kului
-        kohtuullisen paljon aikaa. Projektiin olisi ollut helpompi lähteä mukaan
-        jos käyttämämme tekniikat olisivat olleet itselle ennestään tuttuja.
-        Sain kuitenkin samalla mahdollisuuden oppia uutta ja voin olla
-        tyytyväinen että sain roolit tekniikasta ja testauksesta, koska samat
-        asiat kiinnostavat edelleen myös projektin jälkeen. React oli täysin
-        uusi tekniikka itselle, mutta aion suorittaa Full Stack Open kurssin
-        myös ihan virallisesti, jotta myös React olisi paremmin hallussa.
-        Testauksesta opin käyttämään cypressia paremmin, sekä hieman postmanin
-        käyttöä backendin testauksessa. 
+       Projektin lopputuloksena valmistui suhteellisen hyvin toimiva pwa-sovellus. Ongelmilta ei vältytty,
+       mutta kaikista isoimmista ongelmista selvittiin ja sovellus valmistui aikataulussa, siltä osin, kuin
+       olimme sen valmiiksi määritelleet kriteeriemme pohjalta. Ticorporate oli kokonaisuutta katsoen varsin
+       mukava kurssi, josta sai kokemusta sovelluskehityksestä.
         </p>
-        <p>
-        Yksikkötestien kirjoittaminen jäi
-        vähiiin, koska aloitin sen vasta projektin loppuvaiheessa ja vastaan
-        tuli teknisiä ongelmia. Tarkoituksena oli kuitenkin kirjoittaa
-        yksikkötestejä jossain vaiheessa projektia ja tietenkin niitä olisi
-        kannattanut kirjoittaa jo projektin alussa. Jokaisena päivänä tein, tai
-        ainakin yritin tehdä jotain projektimme eteen. Olisin toivonut saavani
-        frontendissa vähän enemmän itsenäisesti aikaiseksi, mutta tilanne oli
-        siinä mielessä vähän hankala kun tekniikat olivat itselle uusia.
-        Projektin aikana selkeni kuitenkin ajatus siitä miten tärkeää
-        tiedonhakutaito on tällaisessa työssä. Toisekseen koodaamisen osalta
-        tajusin paremmin miten tärkeää console loggaaminen on, vaikka sen kyllä
-        tiedostin jo aiemminkin, niin kurssin aikana sen tärkeys erityisesti
-        korostui. Kommunikointitaitoja ei voi kyllin korostaa. Kommunikointi ei
-        tiimissämme varmasti ollut täydellistä, mutta onnistui kuitenkin sen
-        verran hyvin, että saimme asiat yleensä hoidettua keskenään. Sain myös
-        työtehtävieni kautta mahdollisia ideoita opinnäytetyön aiheeksi.
-      </p>
-      <form>
-        <li>Uutta frontend frameworkia, koska React ei ollut aiemmin tuttu</li>
-        <li>Hieman postmanin käyttöä</li>
-        <li>Gitin käyttäminen tuli tutummaksi</li>
-        <li>Lisää testauksesta.</li>
-        <li>Scrumin käytänteet</li>
-      </form>
-      <hr />
+       
+      
+      
       </div>
-      <div class="plans">
-      <h3>Mitä tulevaisuudessa?</h3>
-      <p>
-        Tällä hetkellä suunnitelmissa olisi hakea työtehtäviä todennäköisimmin
-        testaajana tai frontend kehittäjänä eli sain kurssista vahvistusta sille
-        minkälaisiin työtehtäviin aion hakeautua. Jatkossa on tarkoitus
-        opiskella backend sovelluskehitystä ja syventää osaamista frontendin
-        parissa käymällä Full Stack Open -kurssia perusteellisemmin kuin se oli
-        mahdollista ticorporaten aikana. Ticorporate oli enimmäkseen miellyttävä
-        kurssi jonka aikana sai kokemusta asioista, joita ei ole ollut
-        mahdollista muilla kursseilla saada.
-      </p>
-      <form>
-        <li>
-          Samat asiat kiinnostaa edelleen (eli tekninen toteutus ja testaaminen)
-        </li>
-        <li>Haen ensisijaisesti työharjoittelu paikkaa</li>
-        <li>Kursseina Full Stackia ja backendia jatkossakin</li>
-        <li>
-          Töitä mahdollisesti testaajana tai frontend/backend -kehittäjänä
-        </li>
-        <li>Tuleva opinnäytetyöni käsittelee Reactin yksikkötestaamista</li>
-      </form>
-    </div>
+      
     </div>
     </div>
     <div class="bottombar">

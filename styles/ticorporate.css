@@ -14,7 +14,7 @@ body {
   flex-direction: column;
   margin: auto;
   background-color: #505050;
-  background-image: linear-gradient(to right, #505050, grey);
+  background-image: linear-gradient(to right, #111, #505050);
   padding-left: 200px;
 }
 
@@ -155,8 +155,47 @@ li {
   color: lightgrey;
 }
 
-.plans {
-  padding-bottom: 3rem;
+.ticorporate {
+  background-color: grey;
+  padding: 2rem;
+  margin-top: 2rem;
+  width: 75%;
+}
+
+.brita {
+  background-color: grey;
+  padding: 2rem;
+  margin-top: 2rem;
+  width: 75%;
+}
+
+.products {
+  background-color: grey;
+  padding: 2rem;
+  margin-top: 2rem;
+  width: 75%;
+}
+
+.frontend {
+  padding: 2rem;
+  background-color: grey;
+  margin-top: 2rem;
+  width: 75%;
+}
+
+.testing {
+  margin-top: 2rem;
+  padding: 2rem;
+  background-color: grey;
+  width: 75%;
+}
+
+.result {
+  margin-top: 2rem;
+  padding: 2rem;
+  background-color: grey;
+  margin-bottom: 2rem;
+  width: 75%;
 }
 
 .bottombar {
