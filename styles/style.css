@@ -208,6 +208,16 @@ hr {
 }
 /* Mobiili näkymä */
 @media only screen and (max-width: 1500px) {
+  .container {
+    margin-right: 0rem;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    background-color: #505050;
+    background-image: linear-gradient(to right, #111, #505050);
+    padding-top: 30px;
+  }
+
   .sidebar {
     display: none;
   }

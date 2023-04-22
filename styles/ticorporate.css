@@ -247,9 +247,65 @@ li {
     text-decoration: none;
   }
 }
+/* Mobiili näkymä */
 @media only screen and (max-width: 1500px) {
   .sidebar {
     display: none;
+  }
+
+  .ticorporate {
+    background-color: grey;
+    padding-top: 1rem;
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+    margin-top: 2rem;
+    width: 90%;
+  }
+
+  .brita {
+    background-color: grey;
+    padding-top: 1rem;
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+    margin-top: 2rem;
+    width: 90%;
+  }
+
+  .products {
+    background-color: grey;
+    padding-top: 1rem;
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+    margin-top: 2rem;
+    width: 90%;
+  }
+
+  .frontend {
+    padding-top: 1rem;
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+    background-color: grey;
+    margin-top: 2rem;
+    width: 90%;
+  }
+
+  .testing {
+    margin-top: 2rem;
+    padding-top: 1rem;
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+    background-color: grey;
+    width: 90%;
+  }
+
+  .result {
+    margin-top: 2rem;
+    padding-top: 1rem;
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+    background-color: grey;
+    margin-bottom: 2rem;
+    width: 90%;
   }
 
   .showmenu {
