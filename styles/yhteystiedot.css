@@ -141,6 +141,8 @@ a:hover {
   border-style: solid;
   border-width: 1px;
   margin-right: 480px;
+  max-width: 400px;
+  margin-right: 2rem;
 }
 
 .info {
@@ -189,6 +191,7 @@ hr {
   margin-right: 1px;
 }
 
+/* Näkymä kannettaville koneille */
 @media only screen and (max-width: 2000px) {
   .maincontent {
     padding-left: 200px;
@@ -201,6 +204,8 @@ hr {
     text-decoration: none;
   }
 }
+
+/* Mobiili näkymä */
 @media only screen and (max-width: 1500px) {
   .sidebar {
     display: none;

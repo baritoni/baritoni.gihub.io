@@ -187,7 +187,6 @@ hr {
   margin-right: 1px;
 }
 
-/* Näkymä kannettaville koneille */
 @media only screen and (max-width: 2000px) {
   .maincontent {
     padding-left: 200px;
@@ -199,49 +198,10 @@ hr {
 
     text-decoration: none;
   }
-
-  a {
-    color: lightgrey;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
-      sans-serif;
-  }
 }
-/* Mobiili näkymä */
 @media only screen and (max-width: 1500px) {
-  .container {
-    margin-right: 0rem;
-    max-width: 1200px;
-    display: flex;
-    flex-direction: column;
-    background-color: #505050;
-    background-image: linear-gradient(to right, #111, #505050);
-    padding-top: 30px;
-  }
-
   .sidebar {
     display: none;
-  }
-
-  .aboutMe {
-    padding: 2rem;
-    display: flex;
-    align-items: flex-start;
-    flex-direction: column;
-    width: 90%;
-    margin-left: 2rem;
-    margin-bottom: 2rem;
-    background-color: grey;
-  }
-
-  .workexperience {
-    padding: 2rem;
-    display: flex;
-    align-items: flex-start;
-    flex-direction: column;
-    width: 90%;
-    margin-left: 2rem;
-    margin-bottom: 2rem;
-    background-color: grey;
   }
 
   .showmenu {
