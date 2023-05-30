@@ -124,6 +124,11 @@ h4 {
   color: white;
 }
 
+h5 {
+  font-size: 1.5rem;
+  color: white;
+}
+
 p {
   font-size: 1.5rem;
   margin: 1rem;
