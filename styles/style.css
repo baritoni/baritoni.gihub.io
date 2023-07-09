@@ -172,9 +172,14 @@ hr {
   border-radius: 50%;
 }
 
-.calibri {
+.h1calibri {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 2vw;
+}
+
+.h3calibri {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1.5vw;
 }
 
 .bottombar {
@@ -188,9 +193,9 @@ hr {
   align-items: center;
   border-top: 0.5rem groove white;
   margin: 0 calc(0px - (100vw - 100%) / 2);
-  
-/* setting padding left and right here will keep your content from spanning the entire container */
-/* avoid setting padding in shorthand elsewhere to prevent overriding*/
+
+  /* setting padding left and right here will keep your content from spanning the entire container */
+  /* avoid setting padding in shorthand elsewhere to prevent overriding*/
   padding-left: calc((100vw - 100%) / 2);
   padding-right: calc((100vw - 100%) / 2);
 }
